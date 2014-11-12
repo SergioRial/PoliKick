@@ -1,0 +1,377 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+		<title> Your Democracy </title>	
+		<link rel="stylesheet" type="text/css" />
+<style>		
+#right-col{
+float:right;
+height:810px;
+width:22%;
+margin-right:10px;
+}
+
+ul{
+float: right;
+font-size: 18px;
+margin-right: 10px;
+font-family:monaco;
+list-style-type: none;
+padding: 5px;
+text-align: center;
+
+}
+li{
+display: inline;}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+#buttonOne{
+height: 30px;
+width: 90px;
+background:rgb(241,221,114);
+border: 30px;
+border-radius: 5px;
+transition: background 0.5s linear 0s color 0.5s linear 0s;
+margin-bottom: 15px;
+padding-top: 5px;
+}
+
+#buttonOne:hover {
+    background: #3d7a80;
+    background: -webkit-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -moz-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -o-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -ms-linear-gradient(top, #3d7a80, #2f5f63);
+    background: linear-gradient(top, #3d7a80, #2f5f63);
+}
+
+#buttonTwo{
+height: 30px;
+width: 90px;
+background:rgb(124,104,60);
+border-radius: 5px;
+transition: background 0.5s linear 0s color 0.5s linear 0s;
+margin-bottom: 15px;
+padding-top: 5px;
+}
+
+#buttonTwo:hover {
+    background: #3d7a80;
+    background: -webkit-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -moz-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -o-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -ms-linear-gradient(top, #3d7a80, #2f5f63);
+    background: linear-gradient(top, #3d7a80, #2f5f63);
+}
+
+#buttonThree{
+height: 30px;
+width: 90px;
+background:rgb(148,179,40);
+border-radius: 5px;
+transition: background 0.5s linear 0s color 0.5s linear 0s;
+margin-bottom: 15px;
+padding-top: 5px;
+}
+
+#buttonThree:hover {
+    background: #3d7a80;
+    background: -webkit-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -moz-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -o-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -ms-linear-gradient(top, #3d7a80, #2f5f63);
+    background: linear-gradient(top, #3d7a80, #2f5f63);
+}
+
+#buttonFour{
+height: 30px;
+width: 90px;
+background:rgb(216,143,107);
+border-radius: 5px;
+transition: background 0.5s linear 0s color 0.5s linear 0s;
+margin-bottom: 15px;
+padding-top: 5px;
+}
+
+#buttonFour:hover {
+    background: #3d7a80;
+    background: -webkit-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -moz-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -o-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -ms-linear-gradient(top, #3d7a80, #2f5f63);
+    background: linear-gradient(top, #3d7a80, #2f5f63);
+}
+
+
+h2{
+margin-left: 45px;
+margin-top: 5px;
+margin-left:35px;
+font-family:monaco;
+color: rgb(160,143,107);
+}
+
+#title{
+float:left;
+}
+
+#quote{
+width: 60%;
+position:absolute; left:200px;
+}
+
+#line{
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+
+}
+#social{
+clear: both;
+}
+
+#tools{
+float: left;}
+
+h3{
+font-size: 50px;
+text-align:center;
+font-family:Letter Gothic Std;
+color: black;
+}
+
+p{
+font-size: 30px;
+font-family:monaco;
+color: white;
+text-align:center;
+}
+
+#content{
+height: 550px;
+width: 70%;
+margin-left:25px;
+}
+
+#one{
+Width:400px;
+height:300px;
+background-color: rgb(241,221,114);
+float: left;
+margin-left: 25px;
+margin-top: 15px;
+margin-bottom: 15px;
+margin-right: 25px;
+border-radius: 3px;
+}
+#one:hover {
+    background: #3d7a80;
+    background: -webkit-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -moz-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -o-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -ms-linear-gradient(top, #3d7a80, #2f5f63);
+    background: linear-gradient(top, #3d7a80, #2f5f63);
+}
+
+#two{
+
+Width:400px;
+height:300px;
+background-color: rgb(148,170,40);
+float: right;
+margin-left: 25px;
+margin-top: 15px;
+margin-bottom: 15px;
+margin-right: 25px;
+border-radius: 3px;
+}
+#two:hover {
+    background: #3d7a80;
+    background: -webkit-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -moz-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -o-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -ms-linear-gradient(top, #3d7a80, #2f5f63);
+    background: linear-gradient(top, #3d7a80, #2f5f63);
+}
+#three{
+
+Width:400px;
+height:300px;
+background-color: rgb(160,143,107);
+float: left;
+margin-left: 25px;
+margin-top: 15px;
+margin-bottom: 15px;
+margin-right: 25px;
+border-radius: 3px;
+}
+#three:hover {
+    background: #3d7a80;
+    background: -webkit-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -moz-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -o-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -ms-linear-gradient(top, #3d7a80, #2f5f63);
+    background: linear-gradient(top, #3d7a80, #2f5f63);
+}
+#four{
+
+Width:400px;
+height:300px;
+background-color: rgb(216,143,107);
+float: right;
+margin-left: 25px;
+margin-top: 15px;
+margin-bottom: 15px;
+margin-right: 25px;
+border-radius: 3px;
+}
+#four:hover {
+    background: #3d7a80;
+    background: -webkit-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -moz-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -o-linear-gradient(top, #3d7a80, #2f5f63);
+    background: -ms-linear-gradient(top, #3d7a80, #2f5f63);
+    background: linear-gradient(top, #3d7a80, #2f5f63);
+}
+
+body{background-color:#F5F5DC}
+
+.mover{position:absolute; left:500px; top:250px; }
+.mover2{position:absolute; left:25px; top:250px; }
+.mover3{position:absolute; left:500px; top:600px; }
+.mover4{position:absolute; left:25px; top:600px; }
+
+</style>
+	</head>
+	
+	<body>
+	<div id ="right-col">
+	
+	<form>			
+			<ul>
+			<div id = "buttonOne"><li><a href="contact1project.html">Contact us</li> </div>
+			<div id = "buttonTwo"><li><a href="learn">Product</li> </div>
+			<div id = "buttonThree"><li><a href="help">Help</li> </div>
+			<div id = "buttonFour"><li><a href="about">About</li></div>
+			</ul>				
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+	</form>	
+			<div id ="social"> 
+			<image src="facebook.png"height= "50px"/>
+			<image src="twitter.jpg" height= "50px"/>
+			<image src="linkedin.png" height= "50px"/>
+			<image src="googleplus.png" height= "50px"/>
+			<image src="youtube.jpg" height= "50px"/>
+			</div>
+			<br>			
+<hr id= line> 
+			<br>
+			<br>
+<a class="twitter-timeline" href="https://twitter.com/StoryMapDublin/favorites" data-widget-id="524942263172857857">Favorite Tweets by @StoryMapDublin</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	
+	</div>  
+	        
+	        
+	<div id ="title">
+	        
+	<image src="seanod.jpg" width="200px" height= "200px"/>
+	        
+	</div>  
+	
+	<div id ="quote">
+	    <br>
+		<br>
+		
+		 
+	<h2>"If liberty and equality, as is thought by some, 
+		are chiefly to be found in democracy, they will be best attained 
+		when all persons alike share in government to the utmost."
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			- Aristotle</h2>
+			<br>
+			<hr id= line> 
+			
+	</div>  
+
+	<div id ="content">
+	
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	
+			
+			
+	<div class="mover">		
+	<div id="one">
+	
+
+	<a href="http://www.google.com"><h3>&nbsp;&nbsp;Build&nbsp;</h3>
+					
+	<hr id= line> 
+					<p>Your Political Profile </P>
+					
+													</div>
+													</div>
+													<div class="mover2">
+			<div id="two">
+			
+				<a href="http://www.google.com"><h3>&nbsp;Debate&nbsp;</h3>
+				
+			<hr id= line> 
+					<p> Stand Up For Your Beliefs</p>
+													</div>
+													</div>
+													
+			<div class="mover3">
+			<div id="three">
+			
+				<h3> Organise</h3>
+			
+					<hr id= line> 
+					<p> Find Like Minded People </P>
+													</div>
+													</div>
+            <div class="mover4">
+			<div id="four">
+			
+				<h3>&nbsp;&nbsp;Plan&nbsp;&nbsp;</h3>
+			
+				<hr id= line> 
+					<p> For a Better Tomorrow </P>
+													</div>
+													</div>
+	</div>  
+	               
+	</body> 
