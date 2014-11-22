@@ -19,11 +19,14 @@ a{text-decoration: none;}
 p.move {position:absolute; bottom:50px;left:35%;}
 body {background-color:#FFFACD;}
 </style> 
+function message() {
+    alert("You are submitting to an external page");
+}
 </head>
 <body>
 
 <hr class="line">
-<form target="_blank" onsubmit="return window.confirm(&quot;You are submitting information to an external page. \nAre you sure?&quot;);">
+<form target="_blank" onsubmit="message()">
 <div class="mover">
 <tr>
 <td>Name:</td><td><br>
